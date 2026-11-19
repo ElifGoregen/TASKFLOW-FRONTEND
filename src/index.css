@@ -1,0 +1,19 @@
+/* Tüm sayfanın temel ayarları */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Sayfanın genel görünümü */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+/* Başlıkların genel görünümü */
+h1,
+h2 {
+  font-weight: 600;
+}
