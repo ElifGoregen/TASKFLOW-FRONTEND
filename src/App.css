@@ -394,11 +394,16 @@ select {
 
 .cancel-button {
   width: 100%;
-  margin-top: 10px;
+  min-height: 44px;
+  margin-top: 12px;
+  padding: 12px 16px;
   background: #f8fafc;
-  color: #64748b;
+  color: #475569;
   border: 1px solid #e2e8f0;
   border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
   transition: all 0.2s ease;
 }
 
