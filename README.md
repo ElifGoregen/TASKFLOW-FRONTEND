@@ -1,16 +1,89 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# TaskFlow – Görev Yönetim Uygulaması
 
-Currently, two official plugins are available:
+TaskFlow, kullanıcıların görevlerini kolayca yönetmelerini, önceliklendirmelerini ve ilerlemelerini takip etmelerini sağlayan modern bir görev yönetim uygulamasıdır.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🌐 **Canlı Demo:** https://taskflow-frontend-five-iota.vercel.app
 
-## React Compiler
+## ✨ Özellikler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Kullanıcı kayıt, giriş ve çıkış işlemleri
+- Görev oluşturma, düzenleme ve silme
+- Görevleri tamamlama ve tamamlanma durumunu geri alma
+- Görev önceliği ve son tarih belirleme
+- Görev arama, filtreleme ve sıralama
+- Dashboard ve görev istatistikleri
+- Haftalık hedef belirleme ve ilerleme takibi
+- Günlük, haftalık, aylık ve yıllık aktivite grafikleri
+- Profil bilgilerini ve profil fotoğrafını düzenleme
+- Şifre değiştirme
+- Mobil uyumlu responsive tasarım
 
-## Expanding the ESLint configuration
+## 🛠️ Kullanılan Teknolojiler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+- React
+- JavaScript
+- Vite
+- CSS
+
+### Backend & Database
+- Supabase
+- PostgreSQL
+- Supabase Authentication
+- Supabase Storage
+
+### Tools
+- Visual Studio Code
+- Git & GitHub
+- Vercel
+
+## 🚀 Kurulum
+
+Projeyi bilgisayarınıza klonlayın:
+
+```bash
+git clone https://github.com/ElifGoregen/TASKFLOW-FRONTEND.git
+```
+
+Proje klasörüne girin:
+
+```bash
+cd TASKFLOW-FRONTEND
+```
+
+Bağımlılıkları yükleyin:
+
+```bash
+npm install
+```
+
+Proje ana dizininde `.env` dosyası oluşturun:
+
+```env
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_ANON_KEY=your_supabase_publishable_key
+```
+
+Uygulamayı başlatın:
+
+```bash
+npm run dev
+```
+
+## 🔐 Güvenlik
+
+- Kimlik doğrulama Supabase Authentication ile sağlanır.
+- Row Level Security (RLS) politikaları ile kullanıcı verileri korunur.
+- Kullanıcılar yalnızca kendi görev ve hedef verilerine erişebilir.
+- Gizli servis anahtarları GitHub üzerinde paylaşılmaz.
+
+## 📱 Responsive Design
+
+Uygulama masaüstü, tablet ve mobil cihazlarla uyumlu olacak şekilde geliştirilmiştir.
+
+## 👩‍💻 Geliştirici
+
+**Elif Göregen**
+
+GitHub: https://github.com/ElifGoregen
