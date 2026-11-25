@@ -87,3 +87,22 @@ Uygulama masaüstü, tablet ve mobil cihazlarla uyumlu olacak şekilde geliştir
 **Elif Göregen**
 
 GitHub: https://github.com/ElifGoregen
+
+## Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard-ust.png)
+
+![Dashboard Details](screenshots/dashboard-alt.png)
+
+### Tasks
+![Tasks](screenshots/tasks.png)
+
+### Completed Tasks
+![Completed Tasks](screenshots/completed-tasks.png)
+
+### Statistics
+![Statistics](screenshots/statistics.png)
+
+### Profile
+![Profile](screenshots/profile.png)
